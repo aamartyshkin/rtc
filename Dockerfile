@@ -5,7 +5,7 @@ WORKDIR /usr/src/app
 COPY package.json /usr/src/app/
 
 RUN npm config set registry https://registry.npmmirror.com/
-
+#test
 RUN npm install -g @angular/cli --verbose
 
 RUN npm install
